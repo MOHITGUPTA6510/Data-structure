@@ -11,8 +11,6 @@ int main(){
     for(int i=0; i<4 ; i++){
         printf("First diagonal Elements [%d][%d] = %d \n",i,i,arr1[i][i]);
         fir_dio=fir_dio*arr1[i][i];
-    }
-    for (int i=0; i<4 ; i++){
         printf("Second diagonal Element [%d][%d] = %d \n",i,3-i,arr1[i][3-i]);
         sec_dio=sec_dio*arr1[i][3-i];
     }
